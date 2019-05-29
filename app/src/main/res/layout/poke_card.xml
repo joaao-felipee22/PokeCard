@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="150dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="150dp"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="7dp"
+    card_view:cardUseCompatPadding="true">
+
+    <ImageView
+        android:id="@+id/img_poke"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        card_view:srcCompat="@drawable/pokebola" />
+
+    <TextView
+        android:id="@+id/namepoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="bottom"
+        android:text="NameCard"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+</android.support.v7.widget.CardView>
